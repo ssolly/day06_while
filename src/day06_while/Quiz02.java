@@ -52,5 +52,44 @@ public class Quiz02 {
 		System.out.println("마지막 숫자 : "+lastNum);
 		System.out.println("누적 합 : "+sum);
 		
+		
+		
+		
+		
+		//teacher
+		/* 1.
+		int won=0;
+		for (int day=1; day<=30; day++) {
+			if(day==1) {
+				won=1;
+			} else {
+				won*=2;
+			}
+			System.out.println(day+" : " + won);
+		}
+		System.out.println("30일 째 예치 금액 : " + won);
+		*/
+		/* 2.
+		int i, sum=0, sum1=0;
+		for (i=1; i<=1000; i++) {
+			if (i%3==0 && i%5!=0) {		
+				sum1+=i;
+			}
+			sum+=i;
+		}
+		sum=sum-sum1;		//총합에서 순수한 3의 배수만 빼주기
+		System.out.println(sum);
+		*/
+		/* 3.
+		int i=1,sum=0;
+		for (;sum<=10000;i++) {
+			if(i%2==1) {
+				sum+=i;
+			}
+			//System.out.println(i + " : " + sum);
+		}
+		i--;	//for문 마지막 증감식을 사용했기 떄문에 -를 해줘야 한다.
+		System.out.println(i + " : " + sum);
+		*/
 	}
 }
